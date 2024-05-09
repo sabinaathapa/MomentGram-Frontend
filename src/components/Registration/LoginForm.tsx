@@ -17,7 +17,7 @@ const LoginForm: React.FC =()=>{
         <h3>Login</h3>
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Username" value={username} onChange={(e=>setUsername(e.target.value))}/>
-            <input type="password" placeholder="Password" value={password} onChange={(e=>setPassword(e.target.value))}/>
+            <input type="password" placeholder="*********" value={password} onChange={(e=>setPassword(e.target.value))}/>
             <button type="submit">Login</button>
         </form>
         </>
