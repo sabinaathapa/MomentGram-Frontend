@@ -44,8 +44,7 @@ const SignupForm: React.FC =()=>{
 } catch (error){
     alert("Error in Sign Up");
 }
-};
-    
+};    
     return(
         <>
         <h3>Sign Up</h3>
